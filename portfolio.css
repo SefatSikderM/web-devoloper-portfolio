@@ -104,6 +104,10 @@ font-size: 18px;
 }
 
 /*main Section styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /*about Section styles*/
 .about{
@@ -112,4 +116,10 @@ font-size: 18px;
 background: #FFF8F3;
 margin: 130px 0;
 }
-
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
